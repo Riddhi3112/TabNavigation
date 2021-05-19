@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 import {StyleSheet, View,Image} from 'react-native';
-
+import TopTabbar from '../components/topTab/topTab';
 
 
 export default class tab1 extends Component {
  render() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Image source = {require('../images/play.png')}/>
-      </View>
+          <TopTabbar />
       );
  }
 }
